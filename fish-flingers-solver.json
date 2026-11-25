@@ -1,0 +1,2008 @@
+{
+  "version": 1,
+  "width": 1920,
+  "height": 1080,
+  "nodes": [
+    {
+      "id": "component_1",
+      "type": "window",
+      "props": {
+        "variableName": "fish_flinger_solver_window",
+        "title": "Fish Flinger Solver",
+        "x": 0,
+        "y": 0,
+        "width": 620,
+        "height": 370,
+        "xAnchor": 0,
+        "yAnchor": 0,
+        "resizable": false,
+        "minWidth": 220,
+        "minHeight": 140,
+        "maxWidth": "",
+        "maxHeight": "",
+        "scrollable": false,
+        "scrollStep": 32,
+        "rowBackgroundColours": "",
+        "rowBackgroundEdgeToEdge": false,
+        "closeHandler": ""
+      },
+      "children": [
+        {
+          "id": "component_3",
+          "type": "tabs",
+          "props": {
+            "variableName": "fish_flinger_solver_tabs",
+            "height": 320,
+            "activeIndex": 2,
+            "handler": "on_fish_flinger_solver_tabs_change",
+            "tabGap": "",
+            "tabInset": "",
+            "scrollable": true,
+            "scrollStep": 32,
+            "contentHeight": "",
+            "rowBackgroundColours": "",
+            "rowBackgroundEdgeToEdge": false,
+            "joinBackground": false,
+            "inline": false,
+            "offsetY": "",
+            "columnGap": "",
+            "marginTop": "",
+            "marginBottom": "",
+            "tooltip": ""
+          },
+          "children": [
+            {
+              "id": "component_4",
+              "type": "tabPage",
+              "props": {
+                "label": "Overview",
+                "icon": "",
+                "tooltip": "Overview",
+                "disabled": false,
+                "scrollable": true,
+                "contentHeight": "",
+                "rowBackgroundColours": "0x24211EFF, 0x2E2825FF",
+                "rowBackgroundEdgeToEdge": true
+              },
+              "children": [
+                {
+                  "id": "component_67",
+                  "type": "text",
+                  "props": {
+                    "text": "Species",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_68",
+                  "type": "text",
+                  "props": {
+                    "text": "Habitat",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_69",
+                  "type": "text",
+                  "props": {
+                    "text": "Hook",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_70",
+                  "type": "text",
+                  "props": {
+                    "text": "Distance",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_71",
+                  "type": "text",
+                  "props": {
+                    "text": "Bait",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_73",
+                  "type": "text",
+                  "props": {
+                    "text": "Herring",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_74",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_75",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_76",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_77",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_78",
+                  "type": "text",
+                  "props": {
+                    "text": "Bass",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_79",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_80",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_81",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_82",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_83",
+                  "type": "text",
+                  "props": {
+                    "text": "Cod",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_84",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_85",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_86",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_87",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_88",
+                  "type": "text",
+                  "props": {
+                    "text": "Pike",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_89",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_90",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_91",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_92",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_93",
+                  "type": "text",
+                  "props": {
+                    "text": "Salmon",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_94",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_95",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_96",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_97",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_98",
+                  "type": "text",
+                  "props": {
+                    "text": "Trout",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_99",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_100",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_101",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_102",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": 35,
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                }
+              ]
+            },
+            {
+              "id": "component_5",
+              "type": "tabPage",
+              "props": {
+                "label": "Possibles",
+                "icon": "",
+                "tooltip": "Possible combinations",
+                "disabled": false,
+                "scrollable": true,
+                "contentHeight": "",
+                "rowBackgroundColours": "",
+                "rowBackgroundEdgeToEdge": true
+              },
+              "children": [
+                {
+                  "id": "component_103",
+                  "type": "title",
+                  "props": {
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Herring",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": "",
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_109",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Bone",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_110",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Wood",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_111",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "1",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 25,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_112",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "2",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 25,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_113",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Worm",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_114",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Maggot",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_115",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Cricket",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_116",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Double",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_117",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Large",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_118",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "3",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 25,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_119",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "4",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 25,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_120",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Shrimp",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_121",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_122",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Locust",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_123",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Standard",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_124",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Slim",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_125",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "5",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 25,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_126",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "6",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 25,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_127",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Crayfish",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_128",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Grey M",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_129",
+                  "type": "text",
+                  "props": {
+                    "joinBackground": true,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Green M",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 100,
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_104",
+                  "type": "title",
+                  "props": {
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Bass",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": "",
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_105",
+                  "type": "title",
+                  "props": {
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Cod",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": "",
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_106",
+                  "type": "title",
+                  "props": {
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Pike",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": "",
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_107",
+                  "type": "title",
+                  "props": {
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Salmon",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": "",
+                    "height": ""
+                  }
+                },
+                {
+                  "id": "component_108",
+                  "type": "title",
+                  "props": {
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "",
+                    "text": "Trout",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": "",
+                    "height": ""
+                  }
+                }
+              ]
+            },
+            {
+              "id": "component_6",
+              "type": "tabPage",
+              "props": {
+                "label": "Hints",
+                "icon": "",
+                "tooltip": "Hints",
+                "disabled": false,
+                "scrollable": true,
+                "contentHeight": "",
+                "rowBackgroundColours": "0x24211EFF, 0x2E2825FF",
+                "rowBackgroundEdgeToEdge": true
+              },
+              "children": [
+                {
+                  "id": "component_18",
+                  "type": "text",
+                  "props": {
+                    "text": "Species",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_63",
+                  "type": "text",
+                  "props": {
+                    "text": "Habitat",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_64",
+                  "type": "text",
+                  "props": {
+                    "text": "Hook",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_65",
+                  "type": "text",
+                  "props": {
+                    "text": "Distance",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_66",
+                  "type": "text",
+                  "props": {
+                    "text": "Bait",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_62",
+                  "type": "text",
+                  "props": {
+                    "text": "Herring",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_17",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_19",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nStandard\nSlim\nLarge\nDouble\nBone\nWood",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_herring_hook_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Herring hook"
+                  }
+                },
+                {
+                  "id": "component_20",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nClose\nMedium\nFar",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_herring_distance_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Herring distance"
+                  }
+                },
+                {
+                  "id": "component_31",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nWorm\nMaggot\nCricket\nLocust\nGreen M\nGrey M\nCrayfish\nShrimp",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_herring_bait_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Herring bait"
+                  }
+                },
+                {
+                  "id": "component_33",
+                  "type": "text",
+                  "props": {
+                    "text": "Bass",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_34",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_35",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nStandard\nSlim\nLarge\nDouble\nBone\nWood",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_bass_hook_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Bass hook"
+                  }
+                },
+                {
+                  "id": "component_36",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nClose\nMedium\nFar",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_bass_distance_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Bass distance"
+                  }
+                },
+                {
+                  "id": "component_37",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nWorm\nMaggot\nCricket\nLocust\nGreen M\nGrey M\nCrayfish\nShrimp",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_bass_bait_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Bass bait"
+                  }
+                },
+                {
+                  "id": "component_39",
+                  "type": "text",
+                  "props": {
+                    "text": "Cod",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_40",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_41",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nStandard\nSlim\nLarge\nDouble\nBone\nWood",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_cod_hook_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Cod hook"
+                  }
+                },
+                {
+                  "id": "component_42",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nClose\nMedium\nFar",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_cod_distance_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Cod distance"
+                  }
+                },
+                {
+                  "id": "component_43",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nWorm\nMaggot\nCricket\nLocust\nGreen M\nGrey M\nCrayfish\nShrimp",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_cod_bait_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Cod bait"
+                  }
+                },
+                {
+                  "id": "component_45",
+                  "type": "text",
+                  "props": {
+                    "text": "Pike",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_46",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_47",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nStandard\nSlim\nLarge\nDouble\nBone\nWood",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_pike_hook_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Pike hook"
+                  }
+                },
+                {
+                  "id": "component_48",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nClose\nMedium\nFar",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_pike_distance_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Pike distance"
+                  }
+                },
+                {
+                  "id": "component_49",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nWorm\nMaggot\nCricket\nLocust\nGreen M\nGrey M\nCrayfish\nShrimp",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_pike_bait_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Pike bait"
+                  }
+                },
+                {
+                  "id": "component_51",
+                  "type": "text",
+                  "props": {
+                    "text": "Salmon",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_52",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_53",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nStandard\nSlim\nLarge\nDouble\nBone\nWood",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_salmon_hook_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Salmon hook"
+                  }
+                },
+                {
+                  "id": "component_54",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nClose\nMedium\nFar",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_salmon_distance_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Salmon distance"
+                  }
+                },
+                {
+                  "id": "component_55",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nWorm\nMaggot\nCricket\nLocust\nGreen M\nGrey M\nCrayfish\nShrimp",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_salmon_bait_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Salmon bait"
+                  }
+                },
+                {
+                  "id": "component_57",
+                  "type": "text",
+                  "props": {
+                    "text": "Trout",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": false,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_58",
+                  "type": "text",
+                  "props": {
+                    "text": "--",
+                    "colour": "",
+                    "font": "",
+                    "shadowed": true,
+                    "width": 110,
+                    "height": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": ""
+                  }
+                },
+                {
+                  "id": "component_59",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nStandard\nSlim\nLarge\nDouble\nBone\nWood",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_trout_hook_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Trout hook"
+                  }
+                },
+                {
+                  "id": "component_60",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nClose\nMedium\nFar",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_trout_distance_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Trout distance"
+                  }
+                },
+                {
+                  "id": "component_61",
+                  "type": "combo",
+                  "props": {
+                    "choices": "--\nWorm\nMaggot\nCricket\nLocust\nGreen M\nGrey M\nCrayfish\nShrimp",
+                    "selectedIndex": 1,
+                    "handler": "on_hint_trout_bait_change",
+                    "width": 110,
+                    "height": "",
+                    "entryHeight": 24,
+                    "maxVisibleEntries": 8,
+                    "disabled": false,
+                    "colour": "",
+                    "joinBackground": false,
+                    "inline": true,
+                    "offsetY": "",
+                    "columnGap": "",
+                    "marginTop": "",
+                    "marginBottom": "",
+                    "tooltip": "Trout bait"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": {
+    "settings": false,
+    "content": false
+  }
+}
