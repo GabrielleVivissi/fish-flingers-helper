@@ -85,16 +85,49 @@ There are unused VarClients for weight 4 and weight 5.
 ]]
 
 local results = {}
+
 local fishHabitats = {}
+fishHabitats["Herring"] = nil
+fishHabitats["Bass"] = nil
+fishHabitats["Cod"] = nil
+fishHabitats["Pike"] = nil
+fishHabitats["Salmon"] = nil
+fishHabitats["Trout"] = nil
+
 local fishBaits = {}
+fishBaits["Herring"] = nil
+fishBaits["Bass"] = nil
+fishBaits["Cod"] = nil
+fishBaits["Pike"] = nil
+fishBaits["Salmon"] = nil
+fishBaits["Trout"] = nil
+
 local fishHooks = {}
+fishHooks["Herring"] = nil
+fishHooks["Bass"] = nil
+fishHooks["Cod"] = nil
+fishHooks["Pike"] = nil
+fishHooks["Salmon"] = nil
+fishHooks["Trout"] = nil
+
 local fishDistances = {}
+fishDistances["Herring"] = nil
+fishDistances["Bass"] = nil
+fishDistances["Cod"] = nil
+fishDistances["Pike"] = nil
+fishDistances["Salmon"] = nil
+fishDistances["Trout"] = nil
+
+local currentHabitat = nil
 
 local function watchForFishFlingers(varTransmitEvent)
     if varTransmitEvent.var.configName == 'FISHCOMP_RESULT_RATING' then
-        readRuneScape.handleFishCaught(results, fishHooks, fishBaits, fishDistances)
+        currentHabitat = readRuneScape.handleFishCaught(results, fishBaits, fishHooks, fishDistances)
         pluginui.syncResults(fishHabitats, fishHooks, fishBaits, fishDistances)
     end
+
+    -- TODO: get current possibiles
+    -- TODO: update current possibles
 
     if varTransmitEvent.var.configName == 'TOPLEVEL_V2_ACTIVE_MODAL_ID' and ui.Interfaces:GetInterface(id.Interface.FISHCOMP_STATBLOCK) ~= nil then
         readRuneScape.readStatBlock(fishHabitats)

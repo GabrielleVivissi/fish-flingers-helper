@@ -8,6 +8,7 @@ The primary remaining pieces:
 - Cleaning up the UI
 - Adding support for automatically reading hints
 - Building the algorithm for determining which options the player should try next
+- Resetting the plugin after each round and loading it upon entering the Fish Flingers area
 
 The UI was initially built using [PrettyUI's code generation tool](https://prettyui.j3.gg/editor.html) and the output JSON is available at [fish-flingers-solver.json](fish-flingers-solver.json), but it has since been manually adjusted.
 

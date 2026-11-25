@@ -1,7 +1,7 @@
 local util = {}
 
 -- from https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
-function dump(o)
+function util.dump(o)
     if type(o) == 'table' then
         local s = '{ '
         for k, v in pairs(o) do
@@ -15,7 +15,7 @@ function dump(o)
 end
 
 -- from https://stackoverflow.com/questions/1426954/split-string-in-lua
-function mysplit(inputstr, sep)
+function util.mysplit(inputstr, sep)
     if sep == nil then
         sep = "%s"
     end
